@@ -18,7 +18,7 @@ const Home = () => {
             <FeatureItem
               extraClass="home-location"
               icon="location_on"
-              title="Visit Our Location"
+              title="Hello"
               subTitle="Lorem ipsum dolor sit amet consectetur adipisicing." />
             <FeatureItem
               extraClass="home-primary"
