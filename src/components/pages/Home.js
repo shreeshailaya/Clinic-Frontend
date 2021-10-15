@@ -1,34 +1,31 @@
 import React from 'react';
-import Header from './homePagesComponents/Header';
-import FeatureItem from './homePagesComponents/FeatureItem';
+import Header from './homePageComponents/Header';
 import './Home.css';
-
 const Home = () => {
   return (
-    <div id="main-home-page">
+    <div>
       <Header />
-      <section className="header-bottom-content-aria">
-        <div className="container">
-          <div className="row pr-4 mr-4">
-            <FeatureItem
-              icon="query_builder"
-              title="Opening Hours"
-              extraClass="home-primary"
-              subTitle="Lorem ipsum dolor sit amet consectetur adipisicing." />
-            <FeatureItem
-              extraClass="home-location"
-              icon="location_on"
-              title="Hello"
-              subTitle="Lorem ipsum dolor sit amet consectetur adipisicing." />
-            <FeatureItem
-              extraClass="home-primary"
-              icon="add_ic_call"
-              title="Contact Us Now"
-              subTitle="Lorem ipsum dolor sit amet consectetur adipisicing." />
-          </div>
-        </div>
-      </section>
+<div class="wrapper">
+    
+    <div class="content">
+      <h1>Welcome to Online Clinic Management System.</h1>
+      
     </div>
+    
+    <ul class="share">
+      <li data-text="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></li>
+      <li data-text="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></li>
+      <li data-text="google+"><i class="fa fa-google-plus" aria-hidden="true"></i></li>
+    </ul>
+</div>
+<br/>
+
+    
+
+
+  </div>
+      
+      
   );
 };
 

@@ -1,20 +1,10 @@
-import React from 'react';
+//import logo from './logo.svg';
 import './App.css';
-import Routes from './components/Routes';
-import { UserProvider } from './components/useAuth';
-import { toast } from 'react-toastify';
-
-toast.configure({
-  autoClose: 3000,
-  draggable: false,
-  //etc you get the idea
-});
+import Routes from './Components/routes';
 
 function App() {
   return (
-    <UserProvider>
-      <Routes/>
-    </UserProvider>
+    <Routes/>
   );
 }
 
